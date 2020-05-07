@@ -14,7 +14,8 @@
         android:layout_weight="1"
         android:background="@color/categoria_bichos"
         android:text="@string/categoria_bichos"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/tvCulinaria"
@@ -23,7 +24,8 @@
         android:layout_weight="1"
         android:background="@color/categoria_culinaria"
         android:text="@string/categoria_culinaria"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/tvPlantas"
@@ -32,7 +34,8 @@
         android:layout_weight="1"
         android:background="@color/categoria_plantas"
         android:text="@string/categoria_plantas"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
 
     <TextView
         android:id="@+id/tvPovosNativos"
@@ -41,7 +44,8 @@
         android:layout_weight="1"
         android:background="@color/categoria_povos_nativos"
         android:text="@string/categoria_povos_nativos"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
 
 
 </LinearLayout>
