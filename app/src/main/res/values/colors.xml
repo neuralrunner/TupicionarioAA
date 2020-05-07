@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="categoria_bichos">#2196F3</color>
+    <color name="categoria_culinaria">#f44336</color>
+    <color name="categoria_plantas">#4CAF50</color>
+    <color name="categoria_povos_nativos">#FF9800</color>
+
+</resources>

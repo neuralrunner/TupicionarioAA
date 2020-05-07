@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tupicionario</string>
+    <string name="categoria_bichos">Bichos</string>
+    <string name="categoria_culinaria">Culinária</string>
+    <string name="categoria_plantas">Plantas</string>
+    <string name="categoria_povos_nativos">Povos Nativos</string>
+</resources>
