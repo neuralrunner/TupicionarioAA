@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".CulinariaActivity"
-    android:background="@color/categoria_culinaria">
+    android:background="@color/categoria_culinaria"
+    android:id="@+id/root_culinaria"
+    android:padding="16dp">
 
 </LinearLayout>

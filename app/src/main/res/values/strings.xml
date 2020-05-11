@@ -4,4 +4,57 @@
     <string name="categoria_culinaria">Culinária</string>
     <string name="categoria_plantas">Plantas</string>
     <string name="categoria_povos_nativos">Povos Nativos</string>
+
+    <string-array name="array_bichos">
+        <item>Acaé</item>
+        <item>Acanguçu</item>
+        <item>Acará</item>
+        <item>Acará-açu</item>
+        <item>Acará-açu</item>
+        <item>Anu</item>
+        <item>Apiacá</item>
+        <item>Araponga</item>
+        <item>Arapuã</item>
+        <item>Arara</item>
+    </string-array>
+
+    <string-array name="array_culinaria">
+        <item>Abacate</item>
+        <item>Abacaxi</item>
+        <item>Abati</item>
+        <item>Abunã</item>
+        <item>Açaí</item>
+        <item>Acajá</item>
+        <item>Aipim</item>
+        <item>Bauru</item>
+        <item>Cacau</item>
+        <item>Cará</item>
+    </string-array>
+
+    <string-array name="array_plantas">
+        <item>Abajá</item>
+        <item>Abajeru</item>
+        <item>Abaracatinga</item>
+        <item>Abatiputá</item>
+        <item>Abiurana</item>
+        <item>Abutua</item>
+        <item>Acaiaca</item>
+        <item>Acapu</item>
+        <item>Aguapé</item>
+        <item>Aipim</item>
+    </string-array>
+
+    <string-array name="array_povos_nativos">
+        <item>Araueté</item>
+        <item>Bacajá</item>
+        <item>Bacuri</item>
+        <item>Bororo</item>
+        <item>Caiapó</item>
+        <item>Caingangue</item>
+        <item>Caiobá</item>
+        <item>Carajás</item>
+        <item>Crenaque</item>
+        <item>Deni</item>
+    </string-array>
+
 </resources>

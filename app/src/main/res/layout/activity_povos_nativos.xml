@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".PovosNativosActivity"
-    android:background="@color/categoria_povos_nativos">
+    android:background="@color/categoria_povos_nativos"
+    android:id="@+id/root_povos_nativos"
+    android:padding="16dp">
 
 </LinearLayout>

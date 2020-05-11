@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".BichosActivity"
-    android:background="@color/categoria_bichos">
+    android:background="@color/categoria_bichos"
+    android:id="@+id/root_bichos"
+    android:padding="16dp">
 
 </LinearLayout>

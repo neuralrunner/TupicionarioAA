@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".PlantasActivity"
-    android:background="@color/categoria_plantas">
+    android:background="@color/categoria_plantas"
+    android:id="@+id/root_plantas"
+    android:padding="16dp">
 
 </LinearLayout>
