@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BichosActivity"
-    android:background="@color/categoria_bichos">
+    tools:context=".PovosNativosActivity"
+    android:background="@color/categoria_povos_nativos">
 
 </LinearLayout>
