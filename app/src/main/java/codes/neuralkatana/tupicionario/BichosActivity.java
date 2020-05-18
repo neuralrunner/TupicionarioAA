@@ -2,31 +2,45 @@ package codes.neuralkatana.tupicionario;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.ArrayList;
+
 
 public class BichosActivity extends AppCompatActivity {
-    private List<String> listBichos;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bichos);
 
-        String[] arrayBichos = getResources().getStringArray(R.array.array_bichos);
-        listBichos = Arrays.asList(arrayBichos);
+        final String[] arrayBichos = getResources().getStringArray(R.array.array_bichos);
+        final String[] arrayBichosDesc = getResources().getStringArray(R.array.array_bichos_desc);
 
-        LinearLayout root = findViewById(R.id.root_bichos);
-        for(String bicho : listBichos){
-            TextView textView = new TextView(this);
-            textView.setText(bicho);
-            root.addView(textView);
+        ArrayList<Item> list = new ArrayList<>();
+        for(int i=0; i<arrayBichos.length; i++){
+            String titulo = arrayBichos[i];
+            String desc = arrayBichosDesc[i];
+            Item item = new Item(titulo, desc, R.drawable.ic_bichos);
+            list.add(item);
         }
+
+        ItemAdapter adapter = new ItemAdapter(this, list, R.color.categoria_bichos);
+
+        ListView listView = findViewById(R.id.listview_bichos);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String desc = arrayBichosDesc[position];
+                Toast.makeText(BichosActivity.this,desc,Toast.LENGTH_LONG).show();
+            }
+        });
+        listView.setAdapter(adapter);
     }
 }
